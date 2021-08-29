@@ -1,0 +1,35 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+h1{
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+
+#casas{
+    display: flex;
+    width: 320px;
+    flex-wrap: wrap;
+}
+
+.quad{
+    background-color: beige;
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+    border: solid 1px;
+    border-color: gray;
+}
+
+img{
+    position: relative;
+    display: block;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    
+    
+}
