@@ -1,12 +1,14 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
+    background-color: #202842;
 }
 
 h1{
     display: block;
     text-align: center;
     padding: 20px;
+    color: #8c9ddc;
 }
 
 #casas{
@@ -16,7 +18,7 @@ h1{
 }
 
 .quad{
-    background-color: beige;
+    background-color: #8c9ddc;
     width: 100px;
     height: 100px;
     margin: 2px;
@@ -24,12 +26,33 @@ h1{
     border-color: gray;
 }
 
+
 img{
     position: relative;
     display: block;
     margin: auto;
     top: 50%;
     transform: translateY(-50%);
-    
-    
+}
+
+.btn{
+    display: block;
+    margin-left: auto;
+    margin-top: 30px;
+    background-color: #8c9ddc;
+    color: #202842;
+    font-size: 21px;
+    padding: 15px;
+    border:none;
+    border-radius: 20px;
+    transition-timing-function: ease;
+    transition-duration: 1s;
+}
+
+.btn:hover{
+    padding: 18px;
+    font-size: 23px;
+    border-radius: 0px;
+    background-color: #202842;
+    color: #8c9ddc;
 }
