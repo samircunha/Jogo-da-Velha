@@ -11,22 +11,40 @@
 <body>
 
     <h1>Jogo da velha</h1>
-    <section id="casas">
-        <div class="quad casa1" onclick="jogada('.casa1', 1)"></div>
-        <div class="quad casa2" onclick="jogada('.casa2', 2)"></div>
-        <div class="quad casa3" onclick="jogada('.casa3', 3)"></div>
-        <div class="quad casa4" onclick="jogada('.casa4', 4)"></div>
-        <div class="quad casa5" onclick="jogada('.casa5', 5)"></div>
-        <div class="quad casa6" onclick="jogada('.casa6', 6)"></div>
-        <div class="quad casa7" onclick="jogada('.casa7', 7)"></div>
-        <div class="quad casa8" onclick="jogada('.casa8', 8)"></div>
-        <div class="quad casa9" onclick="jogada('.casa9', 9)"></div>
-    </section>
-    <div id='btn'>
-        <button class="btn">Jogar Novamente</button>
+
+    <div id="telaInicial">
+        <div id="casas">
+            <div>
+                <div class="quad casa1" onclick="jogada('.casa1', 1)"></div>
+                <div class="quad casa2" onclick="jogada('.casa2', 2)"></div>
+                <div class="quad casa3" onclick="jogada('.casa3', 3)"></div>
+            </div>
+            <div>
+                <div class="quad casa4" onclick="jogada('.casa4', 4)"></div>
+                <div class="quad casa5" onclick="jogada('.casa5', 5)"></div>
+                <div class="quad casa6" onclick="jogada('.casa6', 6)"></div>
+            </div>
+            <div>
+                <div class="quad casa7" onclick="jogada('.casa7', 7)"></div>
+                <div class="quad casa8" onclick="jogada('.casa8', 8)"></div>
+                <div class="quad casa9" onclick="jogada('.casa9', 9)"></div>
+            </div>
+        </div>
+        
+        <footer class="contatos">
+            <div class="desenvolvedor">Desenvolvedor Samir Cunha</div>
+            <a href="https://www.linkedin.com/in/samir-cunha-934347212/" id="linke">Linkedin</a>
+            <a href="https://github.com/samircunha" id="git">Github</a>
+        </footer>
     </div>
 
-    
+
+    <div id='resultado' style="display: none;">  
+        <div id="ganhador"></div>
+        <div id='btn'>
+            <button class="btn">Jogar Novamente</button>
+        </div>
+    </div>
 
     <script src="./script.js"> </script>
 </body>
