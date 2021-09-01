@@ -59,7 +59,7 @@ function resultado(array, jogadas) {
             ganhador = 'A ganhadora foi a Casa Lannister'
         }else if(jogadas == 9){
             gameOver = true;
-            ganhador = 'Deu empatou! Tente novamente'
+            ganhador = 'Deu empate! Tente novamente'
         }
     }
     //Dispara a função que motra o resultado
