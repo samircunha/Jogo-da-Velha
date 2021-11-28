@@ -8,4 +8,5 @@ Foi meu primeiro projeto interativo, no qual utilizei: Javascript, HTML e CSS.
 
 🖱️ [Jogo da Velha](https://jdvbysamir.netlify.app/)
 
-![](https://github.com/samircunha/Jogo-da-Velha/blob/main/Jogo-da-velha.png)
+<a href="https://calculadorabysamir.netlify.app/"> <img src="./Jogo-da-velha.png"></img> </a>
+
